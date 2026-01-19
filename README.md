@@ -27,5 +27,5 @@ All cases are from simulated environments on the **LetsDefend** platform.
 
 ---
 ### 📬 Connect with Me
-* **LinkedIn:** [Fahad Algethami](www.linkedin.com/in/fahad-algethami-462806270)
-* **Email:** fahd_d2000@hotmail.com
+* **LinkedIn:** [Fahad Algethami](https://www.linkedin.com/in/fahad-algethami-462806270)
+* **Email:** [My email](fahd_d2000@hotmail.com)
