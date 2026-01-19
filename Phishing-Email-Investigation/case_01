@@ -15,7 +15,7 @@
 ## 🔍 2. Analysis & Investigation
 
 ### 2.1 Trigger Event
-The SEIM triggered an alert for "Phishing URL Detected" Based on threat intlligence feeds.
+The SIEM triggered an alert for "Phishing URL Detected" Based on threat intelligence feeds.
 * **Alert Time:** Mar, 22, 2021, 09:23 PM
 * **Source IP / Host:** 172.16.17.49 / EmilyComp
 * **Suspicious URL:** http://mogagrocol.ru/wp-content/plugins/akismet/fv/index.php?email=ellie@letsdefend.io
@@ -24,9 +24,9 @@ The SEIM triggered an alert for "Phishing URL Detected" Based on threat intllige
 
 #### Step 1: Verification of Activity
 I analyzed the **Log Management** tab to verify if the user actully connected to the site.
-* **Observation:** the logs showed **2 successful http connections** at proxy and firwall layer, meaning the user visited the malicious site.
+* **Observation:** the logs showed **2 successful http connections** at proxy and firewall layer, meaning the user visited the malicious site.
 * **Evidence:**
-    > ![Log Activity Screenshot](Phishing-Email-Investigation/logs.png)
+    > ![Log Activity Screenshot](https://github.com/I-fahd/Cybersecurity_labs/blob/3a98a2a5cb29184cfd110cbc05ca633226027981/Phishing-Email-Investigation/logs.png)
 
 #### Step 2: Threat Intelligence Check
 I checked the URL address in VirusTotal.
@@ -52,8 +52,7 @@ The following artifacts were collected during the investigation:
 
 | Type | Value | Description |
 | :--- | :--- | :--- |
-| **IP Address** | `IP Address` | Hosting Server (Russia) |
-| **File Hash (MD5)** | `8d4b...` | Malicious executable (Emotet) |
+| **IP Address** | `91.189.114.8` | Hosting Server (Russia) |
 | **Domain** | `mogagrocol.ru` | Phishing Domain |
 | **URL Pattern** | `.../index.php?email=` | Credential Harvesting Pattern |
 
