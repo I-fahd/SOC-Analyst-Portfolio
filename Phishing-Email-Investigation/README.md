@@ -33,7 +33,7 @@ I analyzed the **Log Management** tab to verify if the user actully connected to
 I checked the URL address in VirusTotal.
 * **VirusTotal Result:** 12/97 security vendors flagged this URL as malicious
 * **Evidence:**
-    > ![VirusTotal Screenshot](https://github.com/I-fahd/Cybersecurity_labs/blob/main/Phishing-Email-Investigation/logs.png?raw=true)
+    > ![VirusTotal Screenshot](virustotal.png)
 
 #### Step 3: Endpoint Analysis
 I checked endpoint security for EmilyComp to see if any files were downloaded.
