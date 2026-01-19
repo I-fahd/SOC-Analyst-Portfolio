@@ -24,10 +24,10 @@ The SIEM triggered an alert for "Phishing URL Detected" Based on threat intellig
 ### 2.2 Investigation Steps
 
 #### Step 1: Verification of Activity
-I analyzed the **Log Management** tab to verify if the user actully connected to the site.
-* **Observation:** the logs showed **2 successful http connections** at proxy and firewall layer, meaning the user visited the malicious site.
+I analyzed the **Log Management** tab to verify if the user actually connected to the site.
+* **Observation:** the logs showed **2 successful HTTP connections** at proxy and firewall layer, meaning the user visited the malicious site.
 * **Evidence:**
-    > ![Log Activity Screenshot](https://github.com/I-fahd/Cybersecurity_labs/blob/3a98a2a5cb29184cfd110cbc05ca633226027981/Phishing-Email-Investigation/logs.png)
+    > ![Log Activity Screenshot](logs.png)
 
 #### Step 2: Threat Intelligence Check
 I checked the URL address in VirusTotal.
@@ -44,7 +44,7 @@ Downloads: No files were downloaded
 ## 🛡️ 3. Containment & Remediation
 Based on the analysis, the alert was deemed a **True Positive**. The following actions were taken:
 
-1.  **Isolation:** The machine `EmilyComp` was isolated from the network to via EDR to prevent potential C2 communication..
+1.  **Isolation:** The machine `EmilyComp` was isolated from the network via EDR to prevent potential C2 communication.
 2.  **Blocking:** The IP 91.189.114.8 was added to the Firewall Blocklist.
 ---
 
