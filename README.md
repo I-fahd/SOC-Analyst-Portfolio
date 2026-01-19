@@ -28,4 +28,4 @@ All cases are from simulated environments on the **LetsDefend** platform.
 ---
 ### 📬 Connect with Me
 * **LinkedIn:** [Fahad Algethami](https://www.linkedin.com/in/your-profile-link)
-* **Email:** [fahd_d2000@hotmail.com]
+* **Email:** fahd_d2000@hotmail.com
