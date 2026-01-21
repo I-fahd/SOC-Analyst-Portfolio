@@ -2,7 +2,7 @@
 
 **Case ID:** 52
 **Platform:** LetsDefend
-**Date:** 2026-01-22
+**Date:** 2021-02-07
 **Verdict:** False Positive
 
 ---
@@ -59,4 +59,4 @@ Based on the analysis, the alert was deemed a **False Positive**.
 
 ## 🧠 5. Analyst Notes
 * **Root Cause:** The alert was likely triggered by the generic subject line "Meeting," which can sometimes be associated with phishing campaigns.
-* **Recommendation:** Recommend tuning the SIEM correlation rules to decrease the false positive rate for internal-to-internal emails lacking attachments or URLs.
+* **Recommendation:** Review and tune SIEM correlation rules to reduce false positives for internal-to-internal emails without attachments or URLs.
