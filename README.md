@@ -14,6 +14,7 @@ Welcome to my cybersecurity portfolio! This repository documents my investigatio
 |:---:|:---|:---:|:---|:---:|
 | **SOC141** | Phishing URL Detected | ✅ True Positive | VirusTotal, Log Management | [📄 View Report](./SOC141_Phishing_URL_Detected) |
 | **SOC114** | Malicious Attachment | ✅ True Positive | VirusTotal, Endpoint Security | [📄 View Report](./SOC114_Malicious_Attachment_Detected) |
+| **SOC120** | Phishing (Internal) | ⚠️ False Positive | Email Security | [📄 View Report](./SOC120-Phishing-Internal) |
 
 ---
 
