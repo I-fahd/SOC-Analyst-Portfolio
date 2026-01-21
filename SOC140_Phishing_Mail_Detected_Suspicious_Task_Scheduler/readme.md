@@ -34,7 +34,7 @@ I analyzed the **Email Security** tab to verify the email content and status.
 * **Status:** The "Device Action" was **Blocked**.
 * **Conclusion:** The email was stopped at the gateway and **did not** reach Mark's inbox.
 * **Evidence:**
-    > ![Screenshot](logs.png)
+    > ![Screenshot](./Evidence/logs.png)
 
 #### Step 2: Attachment Analysis (Static)
 I downloaded the attachment and checked its hash in VirusTotal.
@@ -42,7 +42,7 @@ I downloaded the attachment and checked its hash in VirusTotal.
 * **VirusTotal Result:** **Malicious** (Flagged as Trojan/Downloader).
 * **Function:** The malware is known to spawn `schtasks.exe` to establish persistence.
 * **Evidence:**
-    > ![VirusTotal Screenshot](virustotal.png)
+    > ![VirusTotal Screenshot](./Evidence/virustotal.png)
 
 #### Step 3: Endpoint Analysis
 I checked **Log Management** to confirm no further activity occurred.
