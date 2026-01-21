@@ -32,7 +32,7 @@ The SIEM triggered an alert for a "Malicious Attachment" based on mail gateway f
 I analyzed the **Log Management** tab to verify if the email was delivered.
 * **Result:** The "Device Action" was **Allowed**, meaning the email reached the user's inbox.
 * **Evidence:**
-    > ![Email Log Screenshot](email_log.png)
+    > ![Email Log Screenshot](logs.png)
 
 #### Step 2: Attachment Analysis (Static)
 I downloaded the attachment `Invoice.xlsx` and analyzed its hash in VirusTotal.
