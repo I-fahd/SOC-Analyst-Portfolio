@@ -12,7 +12,7 @@
 **Status:** Closed
 
 **Description:**
-A phishing alert was triggered for an email sent to **Mark** with the subject "**COVID19 Vaccine**". The email contained a password-protected ZIP file (`infected` password) intended to bypass security filters. Static analysis confirmed the attachment contained malware designed to create malicious scheduled tasks. The email gateway successfully **Blocked** the delivery, preventing any endpoint compromise.
+A phishing alert was triggered for an email sent to **Mark** with the subject "**COVID19 Vaccine**". The email contained a password-protected ZIP file (`infected` password) intended to bypass security filters. Static analysis results from threat intelligence sources indicated the attachment was malicious and associated with scheduled task persistence techniques. The email gateway successfully **Blocked** the delivery, preventing any endpoint compromise.
 
 ---
 
@@ -40,7 +40,7 @@ I analyzed the **Email Security** tab to verify the email content and status.
 I downloaded the attachment and checked its hash in VirusTotal.
 * **File Hash (MD5):** `72c812cf21909a48eb9cceb9e04b865d`
 * **VirusTotal Result:** **Malicious** (Flagged as Trojan/Downloader).
-* **Function:** The malware is known to spawn `schtasks.exe` to establish persistence.
+* **Function:** Threat intelligence reports indicate that this malware family is associated with the use of `schtasks.exe` for persistence.
 * **Evidence:**
     > ![VirusTotal Screenshot](./Evidence/virustotal.png)
 
