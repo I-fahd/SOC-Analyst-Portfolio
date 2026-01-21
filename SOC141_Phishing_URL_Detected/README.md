@@ -27,13 +27,13 @@ The SIEM triggered an alert for "Phishing URL Detected" Based on threat intellig
 I analyzed the **Log Management** tab to verify if the user actually connected to the site.
 * **Observation:** the logs showed **2 successful HTTP connections** at proxy and firewall layer, meaning the user visited the malicious site.
 * **Evidence:**
-    > ![Log Activity Screenshot](logs.png)
+    > ![Log Activity Screenshot](./Evidence/logs.png)
 
 #### Step 2: Threat Intelligence Check
 I checked the URL address in VirusTotal.
 * **VirusTotal Result:** 12/97 security vendors flagged this URL as malicious
 * **Evidence:**
-    > ![VirusTotal Screenshot](virustotal.png)
+    > ![VirusTotal Screenshot](./Evidence/virustotal.png)
 
 #### Step 3: Endpoint Analysis
 I checked endpoint security for EmilyComp to see if any files were downloaded.
