@@ -3,7 +3,7 @@
 
 **Case ID:** 86  
 **Platform:** LetsDefend  
-**Date:** 2026-1-12  
+**Date:** 2021-3-22  
 **Verdict:** True Positive 
 
 ---
@@ -42,7 +42,7 @@ Downloads: No files were downloaded
 ---
 
 ## 🛡️ 3. Containment & Remediation
-Based on the analysis, the alert was deemed a **True Positive**. The following actions were taken:
+Based on the analysis, the alert was deemed a **True Positive**. The following containment actions were taken in accordance with SOC playbooks:
 
 1.  **Isolation:** The machine `EmilyComp` was isolated from the network via EDR to prevent potential C2 communication.
 2.  **Blocking:** The IP 91.189.114.8 was added to the Firewall Blocklist.
@@ -60,5 +60,6 @@ The following artifacts were collected during the investigation:
 ---
 
 ## 🧠 5. Analyst Notes & Lessons Learned
-* Lesson Learned: The firewall allowed this connection because the domain was newly registered and had not yet propagated to our threat feeds. I recommended tuning the firewall to block uncategorized domains.
+* Lesson Learned: The firewall allowed this connection because the domain was newly registered and had not yet propagated to our threat feeds. I recommended reviewing firewall policies related to uncategorized domains.
+.
 
