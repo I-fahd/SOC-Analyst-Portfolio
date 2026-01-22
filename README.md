@@ -26,11 +26,11 @@ Each investigation follows a structured SOC workflow: alert review, evidence col
 
 | Case ID | Alert Type | Verdict | Tools Used | Report |
 |:---:|:---|:---:|:---|:---:|
-| SOC141 | Phishing URL Detected | ✅ True Positive | SIEM, VirusTotal, EDR, Logs | [View Report](./SOC141_Phishing_URL_Detected) |
-| SOC114 | Malicious Attachment | ✅ True Positive | Email Security, VirusTotal, EDR | [View Report](./SOC114_Malicious_Attachment_Detected) |
-| SOC120 | Phishing (Internal) | ⚠️ False Positive | Email Security | [View Report](./SOC120_Phishing_Mail_Detected_Internal_to_Interna) |
-| SOC140 | Suspicious Task Scheduler | ✅ True Positive | Logs, EDR, Email Security | [View Report](./SOC140_Phishing_Mail_Detected_Suspicious_Task_Scheduler) |
-| **SOC104** | Malware Detected | 🚨 True Positive | VirusTotal, AnyRun, Log Management | [📄 View Report](./SOC104_Malware_Detected) |
+| SOC141 | Phishing URL Detected | ✅ True Positive | SIEM, VirusTotal, EDR, Logs | [📄 View Report](./SOC141_Phishing_URL_Detected) |
+| SOC114 | Malicious Attachment | ✅ True Positive | Email Security, VirusTotal, EDR | [📄 View Report](./SOC114_Malicious_Attachment_Detected) |
+| SOC120 | Phishing (Internal) | ⚠️ False Positive | Email Security | [📄 View Report](./SOC120_Phishing_Mail_Detected_Internal_to_Interna) |
+| SOC140 | Suspicious Task Scheduler | ✅ True Positive | Logs, EDR, Email Security | [📄 View Report](./SOC140_Phishing_Mail_Detected_Suspicious_Task_Scheduler) |
+| **SOC104** | Malware Detected | ✅ True Positive | VirusTotal, AnyRun, Log Management | [📄 View Report](./SOC104_Malware_Detected) |
 
 ---
 
