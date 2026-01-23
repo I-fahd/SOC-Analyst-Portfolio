@@ -1,4 +1,3 @@
-
 # 🚨 Incident Report: SOC141 - Phishing URL Detected
 
 **Case ID:** 86  
